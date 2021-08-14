@@ -1,0 +1,22 @@
+{
+  "name": "react-native-expo-cross-ui-lib-example",
+  "displayName": "ExpoCrossUiLib Example",
+  "expo": {
+    "name": "react-native-expo-cross-ui-lib-example",
+    "slug": "react-native-expo-cross-ui-lib-example",
+    "description": "Example app for react-native-expo-cross-ui-lib",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
