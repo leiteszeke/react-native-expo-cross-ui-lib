@@ -1,27 +1,51 @@
-# react-native-expo-cross-ui-lib
+# Expo Cross Platform UI Lib
 
-Expo UI Lib
-
-## Installation
+## Development
 
 ```sh
-npm install react-native-expo-cross-ui-lib
+# Clone the repository
+git clone https://github.com/leiteszeke/react-native-expo-cross-ui-lib.git .
+
+# Move to repo folder
+cd react-native-expo-cross-ui-lib
+
+# Install dependencies
+yarn install
+
+# Install pods
+yarn pods
+
+# Make your magic in src folder
 ```
 
-## Usage
+## Run App
 
-```js
-import ExpoCrossUiLib from "react-native-expo-cross-ui-lib";
+```sh
+# Run Expo bundler
+cd example && yarn start
 
-// ...
+# Run Storybook
+cd example && yarn storybook
 
-const result = await ExpoCrossUiLib.multiply(3, 7);
+# Use Expo to open iOS, Android or Web app.
 ```
 
-## Contributing
+## Build App
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+```sh
+# Move to example folder
+cd example
 
-## License
+# Build web
+yarn build:web
+```
 
-MIT
+## Deploy to Vercel
+
+```sh
+# Move to example folder
+cd example
+
+# Run vercel command
+vercel
+```
